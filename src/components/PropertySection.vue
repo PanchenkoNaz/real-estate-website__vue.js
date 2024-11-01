@@ -21,7 +21,8 @@
               <img :src="property.image" :alt="property.title" class="img-cover" />
             </figure>
             <span class="badge label-medium" v-if="property.isNew">New</span>
-            <button class="icon-btn fav-btn" aria-label="add to favorite" data-toggle-btn>
+            <!-- Кнопка "Додати в обране" з функцією toggleFavorite -->
+            <button @click="toggleFavorite(index)" :class="{ active: property.isFavorite }" class="icon-btn fav-btn" aria-label="add to favorite">
               <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
             </button>
           </div>
@@ -57,6 +58,7 @@ export default {
           price: "$710.68",
           address: "1901 Thornridge Cir. Shiloh, Hawaii 81063",
           isNew: true,
+          isFavorite: false, // поле для стану "обране"
           meta: [
             { icon: "bed", text: "3 Bed" },
             { icon: "bathtub", text: "2 Bath" },
@@ -69,6 +71,7 @@ export default {
           price: "$630.44",
           address: "2972 Westheimer Rd. Santa Ana, Illinois 85486",
           isNew: false,
+          isFavorite: false,
           meta: [
             { icon: "bed", text: "5 Bed" },
             { icon: "bathtub", text: "4 Bath" },
@@ -81,6 +84,7 @@ export default {
           price: "$475.22",
           address: "2118 Thornridge Cir. Syracuse, Connecticut 35624",
           isNew: false,
+          isFavorite: false,
           meta: [
             { icon: "bed", text: "8 Bed" },
             { icon: "bathtub", text: "5 Bath" },
@@ -93,6 +97,7 @@ export default {
           price: "$576.28",
           address: "4140 Parker Rd. Allentown, New Mexico 31134",
           isNew: false,
+          isFavorite: false,
           meta: [
             { icon: "bed", text: "6 Bed" },
             { icon: "bathtub", text: "6 Bath" },
@@ -105,6 +110,7 @@ export default {
           price: "$473.85",
           address: "2715 Ash Dr. San Jose, South Dakota 83475",
           isNew: false,
+          isFavorite: false,
           meta: [
             { icon: "bed", text: "10 Bed" },
             { icon: "bathtub", text: "8 Bath" },
@@ -117,6 +123,7 @@ export default {
           price: "$105.55",
           address: "3517 W. Gray St. Utica, Pennsylvania 57867",
           isNew: false,
+          isFavorite: false,
           meta: [
             { icon: "bed", text: "8 Bed" },
             { icon: "bathtub", text: "8 Bath" },
@@ -129,6 +136,7 @@ export default {
           price: "$739.65",
           address: "8502 Preston Rd. Inglewood, Maine 98380",
           isNew: false,
+          isFavorite: false,
           meta: [
             { icon: "bed", text: "4 Bed" },
             { icon: "bathtub", text: "4 Bath" },
@@ -141,6 +149,7 @@ export default {
           price: "$948.55",
           address: "4517 Washington Ave. Manchester, Kentucky 39495",
           isNew: false,
+          isFavorite: false,
           meta: [
             { icon: "bed", text: "3 Bed" },
             { icon: "bathtub", text: "2 Bath" },
@@ -149,10 +158,20 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    toggleFavorite(index) {
+      this.properties[index].isFavorite = !this.properties[index].isFavorite;
+    }
   }
 };
 </script>
 
 <style scoped>
 /* Додайте стилі для PropertySection тут */
+
+/* Стиль для активної кнопки обраного */
+.fav-btn.active {
+  color: red; /* Зміна кольору для позначення стану "обране" */
+}
 </style>
