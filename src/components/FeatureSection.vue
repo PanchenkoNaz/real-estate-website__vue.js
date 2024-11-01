@@ -2,7 +2,7 @@
   <section class="section feature" aria-labelledby="feature-label">
     <div class="container">
       <figure class="feature-banner">
-        <img src="@/assets/images/feature-banner-1.jpg" width="1020" height="690" loading="lazy" alt="feature banner" class="img-cover" />
+        <img src="/src/assets/images/feature-banner-1.jpg" width="1020" height="690" loading="lazy" alt="feature banner" class="img-cover" />
       </figure>
 
       <div class="feature-content">
@@ -25,7 +25,7 @@
   <section class="section feature feature-2" aria-labelledby="feature-label-2">
     <div class="container">
       <figure class="feature-banner">
-        <img src="@/assets/images/feature-banner-2.jpg" width="1020" height="690" loading="lazy" alt="feature banner" class="img-cover" />
+        <img src="/src/assets/images/feature-banner-2.jpg" width="1020" height="690" loading="lazy" alt="feature banner" class="img-cover" />
       </figure>
 
       <div class="feature-content">

@@ -40,8 +40,8 @@
           </button>
         </form>
       </div>
-      <img src="@/assets/images/hero.png" width="816" height="659" role="presentation" class="hero-banner" />
-      <img src="@/assets/images/bg-pattern.png" width="1240" height="840" role="presentation" class="bg-pattern" />
+      <img src="/src/assets/images/hero.png" width="816" height="659" role="presentation" class="hero-banner" />
+      <img src="/src/assets/images/bg-pattern.png" width="1240" height="840" role="presentation" class="bg-pattern" />
     </div>
   </section>
 </template>

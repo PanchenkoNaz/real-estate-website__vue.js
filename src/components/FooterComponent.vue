@@ -4,7 +4,7 @@
       <div class="container">
         <div class="footer-brand">
           <a href="#" class="logo">
-            <img src="@/assets/images/logo.png" width="190" height="28" alt="wealthome" />
+            <img src="/src/assets/images/logo.png" width="190" height="28" alt="wealthome" />
           </a>
           <p class="body-medium footer-text">
             Lorem ipsum dolor sit amet consectetur. Non bibendum sit non congue pharetra pulvinar leo. Sed ut amet ipsum.
@@ -44,17 +44,17 @@
               <ul class="social-list">
                 <li>
                   <a href="#" class="social-link">
-                    <img src="@/assets/images/facebook.svg" alt="facebook" />
+                    <img src="/src/assets/images/facebook.svg" alt="facebook" />
                   </a>
                 </li>
                 <li>
                   <a href="#" class="social-link">
-                    <img src="@/assets/images/twitter.svg" alt="twitter" />
+                    <img src="/src/assets/images/twitter.svg" alt="twitter" />
                   </a>
                 </li>
                 <li>
                   <a href="#" class="social-link">
-                    <img src="@/assets/images/insta.svg" alt="instagram" />
+                    <img src="/src/assets/images/insta.svg" alt="instagram" />
                   </a>
                 </li>
               </ul>

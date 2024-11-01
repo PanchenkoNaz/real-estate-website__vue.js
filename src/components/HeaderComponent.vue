@@ -2,7 +2,7 @@
   <header class="header" data-header>
     <div class="container">
       <a href="#" class="logo">
-        <img src="@/assets/images/logo.png" width="190" height="28" alt="wealthome" />
+        <img src="/src/assets/images/logo.png" width="190" height="28" alt="wealthome" />
       </a>
 
       <nav class="navbar" data-navbar>
