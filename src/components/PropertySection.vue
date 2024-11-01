@@ -52,7 +52,7 @@ export default {
     return {
       properties: [
         {
-          image: "@/assets/images/property-1.jpg",
+          image: "/src/assets/images/property-1.jpg",
           title: "COVA Home Realty",
           price: "$710.68",
           address: "1901 Thornridge Cir. Shiloh, Hawaii 81063",
@@ -64,7 +64,7 @@ export default {
           ]
         },
         {
-          image: "@/assets/images/property-2.jpg",
+          image: "/src/assets/images/property-2.jpg",
           title: "Exit Realty",
           price: "$630.44",
           address: "2972 Westheimer Rd. Santa Ana, Illinois 85486",
@@ -76,7 +76,7 @@ export default {
           ]
         },
         {
-          image: "@/assets/images/property-3.jpg",
+          image: "/src/assets/images/property-3.jpg",
           title: "The Real Estate Group",
           price: "$475.22",
           address: "2118 Thornridge Cir. Syracuse, Connecticut 35624",
@@ -88,7 +88,7 @@ export default {
           ]
         },
         {
-          image: "@/assets/images/property-4.jpg",
+          image: "/src/assets/images/property-4.jpg",
           title: "757 Realty",
           price: "$576.28",
           address: "4140 Parker Rd. Allentown, New Mexico 31134",
@@ -100,7 +100,7 @@ export default {
           ]
         },
         {
-          image: "@/assets/images/property-5.jpg",
+          image: "/src/assets/images/property-5.jpg",
           title: "Beach Pros Realty Inc.",
           price: "$473.85",
           address: "2715 Ash Dr. San Jose, South Dakota 83475",
@@ -112,7 +112,7 @@ export default {
           ]
         },
         {
-          image: "@/assets/images/property-6.jpg",
+          image: "/src/assets/images/property-6.jpg",
           title: "Keller Williams Elite Town Center",
           price: "$105.55",
           address: "3517 W. Gray St. Utica, Pennsylvania 57867",
@@ -124,7 +124,7 @@ export default {
           ]
         },
         {
-          image: "@/assets/images/property-7.jpg",
+          image: "/src/assets/images/property-7.jpg",
           title: "All Pros Real Estate",
           price: "$739.65",
           address: "8502 Preston Rd. Inglewood, Maine 98380",
@@ -136,7 +136,7 @@ export default {
           ]
         },
         {
-          image: "@/assets/images/property-8.jpg",
+          image: "/src/assets/images/property-8.jpg",
           title: "FIT Realty",
           price: "$948.55",
           address: "4517 Washington Ave. Manchester, Kentucky 39495",

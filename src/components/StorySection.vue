@@ -46,47 +46,47 @@ export default {
   data() {
     return {
       avatars: [
-        { image: "@/assets/images/avatar-1.jpg", alt: "John smith" },
-        { image: "@/assets/images/avatar-2.jpg", alt: "Jane smith" },
-        { image: "@/assets/images/avatar-3.jpg", alt: "John smith" },
-        { image: "@/assets/images/avatar-4.jpg", alt: "Jane smith", overlay: "99+" }
+        { image: "/src/assets/images/avatar-1.jpg", alt: "John smith" },
+        { image: "/src/assets/images/avatar-2.jpg", alt: "Jane smith" },
+        { image: "/src/assets/images/avatar-3.jpg", alt: "John smith" },
+        { image: "/src/assets/images/avatar-4.jpg", alt: "Jane smith", overlay: "99+" }
       ],
       stories: [
         {
           name: "Chris Traeger",
           rating: "5.0",
-          background: "@/assets/images/story-1.jpg",
-          avatar: "@/assets/images/story-avatar-1.jpg"
+          background: "/src/assets/images/story-1.jpg",
+          avatar: "/src/assets/images/story-avatar-1.jpg"
         },
         {
           name: "Duke Silver",
           rating: "5.0",
-          background: "@/assets/images/story-2.jpg",
-          avatar: "@/assets/images/story-avatar-2.jpg"
+          background: "/src/assets/images/story-2.jpg",
+          avatar: "/src/assets/images/story-avatar-2.jpg"
         },
         {
           name: "Tsukasa Aoi",
           rating: "5.0",
-          background: "@/assets/images/story-3.jpg",
-          avatar: "@/assets/images/story-avatar-3.jpg"
+          background: "/src/assets/images/story-3.jpg",
+          avatar: "/src/assets/images/story-avatar-3.jpg"
         },
         {
           name: "Freida Varnes",
           rating: "5.0",
-          background: "@/assets/images/story-4.jpg",
-          avatar: "@/assets/images/story-avatar-4.jpg"
+          background: "/src/assets/images/story-4.jpg",
+          avatar: "/src/assets/images/story-avatar-4.jpg"
         },
         {
           name: "Carl Lorthner",
           rating: "5.0",
-          background: "@/assets/images/story-5.jpg",
-          avatar: "@/assets/images/story-avatar-5.jpg"
+          background: "/src/assets/images/story-5.jpg",
+          avatar: "/src/assets/images/story-avatar-5.jpg"
         },
         {
           name: "Marci Senter",
           rating: "5.0",
-          background: "@/assets/images/story-6.jpg",
-          avatar: "@/assets/images/story-avatar-6.jpg"
+          background: "/src/assets/images/story-6.jpg",
+          avatar: "/src/assets/images/story-avatar-6.jpg"
         }
       ]
     };
