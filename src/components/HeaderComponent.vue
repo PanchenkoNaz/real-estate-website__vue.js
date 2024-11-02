@@ -57,7 +57,7 @@ export default {
 <style scoped>
 /* Додайте стилі, щоб забезпечити коректне відображення елементів */
 .header.active {
-  background-color: rgba(0, 0, 0, 0.8); /* Стиль хедера при прокрутці */
+  background-color: rgba(3, 25, 148, 0.8); /* Стиль хедера при прокрутці */
 }
 
 .navbar.active {
