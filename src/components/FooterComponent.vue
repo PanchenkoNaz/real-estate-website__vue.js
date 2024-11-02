@@ -67,7 +67,7 @@
     <div class="footer-bottom">
       <div class="container">
         <p class="copyright body-medium">
-          &copy; 2023 codewithsadee
+          &copy; 2024 Nazar Panchenko
         </p>
       </div>
     </div>
@@ -79,7 +79,3 @@ export default {
   name: 'FooterComponent'
 };
 </script>
-
-<style scoped>
-/* Додайте стилі для FooterComponent тут або залиште стилі в загальному файлі стилів */
-</style>
