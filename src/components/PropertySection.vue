@@ -53,7 +53,7 @@ export default {
     return {
       properties: [
         {
-          image: "/src/assets/images/property-1.jpg",
+          image: "require('@/assets/images/property-1.jpg')",
           title: "COVA Home Realty",
           price: "$710.68",
           address: "1901 Thornridge Cir. Shiloh, Hawaii 81063",
@@ -66,7 +66,7 @@ export default {
           ]
         },
         {
-          image: "/src/assets/images/property-2.jpg",
+          image: "@/assets/images/property-2.jpg",
           title: "Exit Realty",
           price: "$630.44",
           address: "2972 Westheimer Rd. Santa Ana, Illinois 85486",
@@ -79,7 +79,7 @@ export default {
           ]
         },
         {
-          image: "/src/assets/images/property-3.jpg",
+          image: "@/property-3.jpg",
           title: "The Real Estate Group",
           price: "$475.22",
           address: "2118 Thornridge Cir. Syracuse, Connecticut 35624",
