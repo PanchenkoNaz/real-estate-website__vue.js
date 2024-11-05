@@ -41,58 +41,78 @@
 </template>
 
 <script>
+import Avatar1 from '../assets/images/avatar-1.jpg';
+import Avatar2 from '../assets/images/avatar-2.jpg';
+import Avatar3 from '../assets/images/avatar-3.jpg';
+import Avatar4 from '../assets/images/avatar-4.jpg';
+
+import Story1 from '../assets/images/story-1.jpg';
+import Story2 from '../assets/images/story-2.jpg';
+import Story3 from '../assets/images/story-3.jpg';
+import Story4 from '../assets/images/story-4.jpg';
+import Story5 from '../assets/images/story-5.jpg';
+import Story6 from '../assets/images/story-6.jpg';
+
+import StoryAvatar1 from '../assets/images/story-avatar-1.jpg';
+import StoryAvatar2 from '../assets/images/story-avatar-2.jpg';
+import StoryAvatar3 from '../assets/images/story-avatar-3.jpg';
+import StoryAvatar4 from '../assets/images/story-avatar-4.jpg';
+import StoryAvatar5 from '../assets/images/story-avatar-5.jpg';
+import StoryAvatar6 from '../assets/images/story-avatar-6.jpg';
+
 export default {
   name: 'StorySection',
   data() {
     return {
       avatars: [
-        { image: "/src/assets/images/avatar-1.jpg", alt: "John smith" },
-        { image: "/src/assets/images/avatar-2.jpg", alt: "Jane smith" },
-        { image: "/src/assets/images/avatar-3.jpg", alt: "John smith" },
-        { image: "/src/assets/images/avatar-4.jpg", alt: "Jane smith", overlay: "99+" }
+        { image: Avatar1, alt: "John smith" },
+        { image: Avatar2, alt: "Jane smith" },
+        { image: Avatar3, alt: "John smith" },
+        { image: Avatar4, alt: "Jane smith", overlay: "99+" }
       ],
       stories: [
         {
           name: "Chris Traeger",
           rating: "5.0",
-          background: "/src/assets/images/story-1.jpg",
-          avatar: "/src/assets/images/story-avatar-1.jpg"
+          background: Story1,
+          avatar: StoryAvatar1
         },
         {
           name: "Duke Silver",
           rating: "5.0",
-          background: "/src/assets/images/story-2.jpg",
-          avatar: "/src/assets/images/story-avatar-2.jpg"
+          background: Story2,
+          avatar: StoryAvatar2
         },
         {
           name: "Tsukasa Aoi",
           rating: "5.0",
-          background: "/src/assets/images/story-3.jpg",
-          avatar: "/src/assets/images/story-avatar-3.jpg"
+          background: Story3,
+          avatar: StoryAvatar3
         },
         {
           name: "Freida Varnes",
           rating: "5.0",
-          background: "/src/assets/images/story-4.jpg",
-          avatar: "/src/assets/images/story-avatar-4.jpg"
+          background: Story4,
+          avatar: StoryAvatar4
         },
         {
           name: "Carl Lorthner",
           rating: "5.0",
-          background: "/src/assets/images/story-5.jpg",
-          avatar: "/src/assets/images/story-avatar-5.jpg"
+          background: Story5,
+          avatar: StoryAvatar5
         },
         {
           name: "Marci Senter",
           rating: "5.0",
-          background: "/src/assets/images/story-6.jpg",
-          avatar: "/src/assets/images/story-avatar-6.jpg"
+          background: Story6,
+          avatar: StoryAvatar6
         }
       ]
     };
   }
 };
 </script>
+
 
 <style scoped>
 /* Додайте стилі для StorySection тут або залиште їх у загальному файлі стилів */
